@@ -11,3 +11,11 @@ new Swiper(".banner",{
 	autoplayDisableOnInteraction:false
 	//slide,fade,cube,coverflow,flip
 })
+
+$.each($(".door"), function(n,e) {
+	$(this).hover(function(){
+		$(".door_show").eq(n).show();
+	},function(){
+		$(".door_show").eq(n).hide();
+	})
+});
