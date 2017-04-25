@@ -156,6 +156,7 @@
 	width: 180px;
 	height: 136px;
 	position: absolute;
+	transition: 0.6s;
 }
 .pic_list li img {
 	width: 100%;
